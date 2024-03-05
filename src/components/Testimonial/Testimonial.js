@@ -44,7 +44,7 @@ function Testimonial(props) {
                                 modules={[Navigation, Scrollbar, Autoplay]}
                                 navigation={{
                                     prevEl: prevRef?.current,
-                                    nextEl: nextRef?.current
+                                    nextEl: nextRef?.current,
                                 }}
                                 slidesPerView={1}
                                 grabCursor={true}

@@ -14,11 +14,11 @@ function ProjectBox(props) {
 
         return () => {
             element.removeEventListener('mouseenter', project_anim);
-        }
+        };
     }, []); // eslint-disable-line
 
     return (
-        <Link to="/ProjectDetailed" className="project-list-single--wrapper" ref={box}>
+        <Link to="/" className="project-list-single--wrapper" ref={box}>
             <div className="project-list-single">
                 <div className="project-list-single--content">
                     <div className="project-list-single--content-inner">

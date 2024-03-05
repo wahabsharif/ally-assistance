@@ -10,7 +10,7 @@ function ClientSection() {
                 <div className="container">
                     <div className="client-section-header">
                         <Heading
-                            heading={<h3>Our clients</h3>}
+                            heading={<h3>We Deals In.</h3>}
                             headingClass="heading-large dark-1"
                             paragraphClass="dark-2"
                             paragraph="We’ve built strong relationships with our clients. Become our new client and expect nothing less than industry’s best."

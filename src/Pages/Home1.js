@@ -45,14 +45,13 @@ const Home1 = () => {
                 </div>
             </div>
             {/* Projects section - end */}
+            {/* Clients section - start */}
+            <ClientSection />
+            {/* Clients section - end */}
 
             {/* Testimonials section - start */}
             <Testimonial />
             {/* Testimonials section - end */}
-
-            {/* Clients section - start */}
-            <ClientSection />
-            {/* Clients section - end */}
         </>
     );
 };
