@@ -15,11 +15,11 @@ function ClientSlider(props) {
                         autoplay={{
                             delay: 5000,
                         }}
-                        loop={false}
-                        speed={2500}
+                        loop={true}
+                        speed={2000}
                         breakpoints={{
                             0: {
-                                slidesPerView: 2,
+                                slidesPerView: 1,
                             },
                             768: {
                                 slidesPerView: 4,

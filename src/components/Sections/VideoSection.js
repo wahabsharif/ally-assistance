@@ -11,6 +11,10 @@ function VideoSection() {
     return (
         <>
             <div className="video-section top-section position-relative">
+                <div className="video-container">
+                    <Video video={video} muted autoPlay playsInline="" preload="auto" />
+                </div>
+                <Art art={illustration} type={'1'} />
                 <div className="top-heading">
                     <div className="container">
                         <Heading
@@ -26,10 +30,6 @@ function VideoSection() {
                         />
                     </div>
                 </div>
-                <div className="video-container">
-                    <Video video={video} muted autoPlay playsInline="" preload="auto" />
-                </div>
-                <Art art={illustration} type={'1'} />
             </div>
         </>
     );

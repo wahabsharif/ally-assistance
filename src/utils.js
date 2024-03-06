@@ -530,7 +530,6 @@ export const initializePage = () => {
 };
 
 export function service_image_anim(e) {
-
     if ($(window).width() < 992) {
         return;
     }

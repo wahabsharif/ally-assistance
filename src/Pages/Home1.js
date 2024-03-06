@@ -6,8 +6,8 @@ import VideoSection from '../components/Sections/VideoSection';
 import TextAboutSection from '../components/Misc/TextAboutSection';
 import CallToAction from '../components/Misc/CallToAction';
 import ProjectHeader from '../components/Headers/ProjectHeader';
-
 import ProjectsSection from '../components/ProjectComponents/ProjectsSection';
+import Deals from '../components/Deals/deals';
 
 const Home1 = () => {
     return (
@@ -19,7 +19,8 @@ const Home1 = () => {
             {/* About section - start */}
             <TextAboutSection />
             {/* About section - end */}
-
+            {/* Deals */}
+            <Deals />
             {/* Projects section - start */}
             <div className="projects">
                 <div className="projects-wrapper">
