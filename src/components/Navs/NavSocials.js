@@ -4,7 +4,7 @@ function NavSocials() {
     return (
         <div>
             <div className="navigation-menu-social">
-                <h6>FOLLOW</h6>
+                <h6>Conatact Us!</h6>
                 <ul>
                     {socialMediaData.map((socialMedia, index) => (
                         <li key={index}>

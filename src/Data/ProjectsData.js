@@ -13,8 +13,7 @@ export const projectData = [
     },
     {
         heading: 'Meetings.',
-        description:
-            'Leading in meetings management with expertise, award-winning tech, ensuring top service, safety, and insight.',
+        description: 'Leading in meetings management with expertise, ensuring top service, safety, and insight.',
         image: project_thumbnail_02,
         alt: 'project-image-2',
     },

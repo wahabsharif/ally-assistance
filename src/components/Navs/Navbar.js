@@ -2,10 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import logo from '../../assets/images/ally-assistance-landscape-logo.png';
 import navigationmenuimage from '../../assets/images/navigation_menu_image.png';
 import { NavLink } from 'react-router-dom';
-import NavSocials from './NavSocials';
+// import NavSocials from './NavSocials';
 import $ from 'jquery';
 import { navItems } from '../../Data/NavItems';
-import PhoneCall from '../PhoneCall/PhoneCall';
 
 import { nav_menu_scroll, nav_menu_width, dropdown_handler, nav_tl_driver, nav_scroll_disable } from '../../utils';
 
@@ -164,7 +163,7 @@ function Navbar() {
                                     ))}
                                 </ul>
                             </div>
-                            <NavSocials />
+                            {/* <NavSocials /> */}
                         </div>
                     </div>
                 </nav>

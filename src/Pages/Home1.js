@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ClientSection from '../components/ClientComponents/ClientSection';
-import Testimonial from '../components/Testimonial/Testimonial';
+// import Testimonial from '../components/Testimonial/Testimonial';
 import VideoSection from '../components/Sections/VideoSection';
 import TextAboutSection from '../components/Misc/TextAboutSection';
 import CallToAction from '../components/Misc/CallToAction';
@@ -21,6 +21,9 @@ const Home1 = () => {
             {/* About section - end */}
             {/* Deals */}
             <Deals />
+            {/* Clients section - start */}
+            <ClientSection />
+            {/* Clients section - end */}
             {/* Projects section - start */}
             <div className="projects">
                 <div className="projects-wrapper">
@@ -46,12 +49,8 @@ const Home1 = () => {
                 </div>
             </div>
             {/* Projects section - end */}
-            {/* Clients section - start */}
-            <ClientSection />
-            {/* Clients section - end */}
-
             {/* Testimonials section - start */}
-            <Testimonial />
+            {/* <Testimonial /> */}
             {/* Testimonials section - end */}
         </>
     );
