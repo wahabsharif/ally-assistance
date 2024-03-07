@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/ally-assistance-icon-75.png';
-import WSLogo from '../../assets/images/wahab-sharif-logo-1.png';
+import WSLogo from '../../assets/images/wahab-sharif-logo-4.svg';
 // import NavSocials from '../Navs/NavSocials';
 
 function Footer() {
@@ -35,10 +35,10 @@ function Footer() {
                                         <h4>+44 121 582 4316</h4>
                                     </a>
                                 </div>
-                                <div className="detail-single footer-address">
+                                {/* <div className="detail-single footer-address">
                                     <h6>ADDRESS</h6>
                                     <h4>581 Stratford Road, Sparkhill, Birmingham, B11 4LS</h4>
-                                </div>
+                                </div> */}
                             </div>
                             {/* <div className="col-lg-4">
                                 <div className="detail-single footer-email">
