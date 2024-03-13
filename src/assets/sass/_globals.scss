@@ -1499,3 +1499,18 @@ recent posts widget
         /* Add your desired shadow values */
     }
 }
+
+// nav-phone-number
+
+.nav-phone-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 100%;
+}

@@ -129,6 +129,11 @@ function Navbar() {
                                 />
                             </NavLink>
                         </div>
+                        <div className="nav-phone-number">
+                            <a target="_blank" href="tel:441215824316" rel="noreferrer" className="text-white">
+                                Call Us
+                            </a>
+                        </div>
                         <div className="hamburger" ref={buttonRef}>
                             <a href="/#">
                                 <div className="bar"></div>
