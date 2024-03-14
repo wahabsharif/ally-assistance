@@ -5,7 +5,7 @@ import AboutText from '../components/AboutComponents/AboutText';
 import ImageSection from '../components/Sections/ImageSection';
 import TextContent from '../components/TextContent/TextContent';
 // import TeamSection from '../components/AboutComponents/TeamSection';
-import Testimonial from '../components/Testimonial/Testimonial';
+// import Testimonial from '../components/Testimonial/Testimonial';
 import aboutheaderimage from '../assets/images/about-header.jpg';
 import Art from '../components/Misc/Art';
 import illustration from '../assets/images/art_1.png';
@@ -57,7 +57,7 @@ function About() {
 
             <TextContent />
             {/* <TeamSection /> */}
-            <Testimonial type="5" />
+            {/* <Testimonial type="5" /> */}
         </>
     );
 }

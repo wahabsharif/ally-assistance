@@ -1,5 +1,5 @@
 import project_thumbnail_01 from '../assets/images/services/travel.png';
-import project_thumbnail_02 from '../assets/images/services/meeting.png';
+import project_thumbnail_02 from '../assets/images/services/meeting.jpg';
 import project_thumbnail_03 from '../assets/images/services/accommodation.png';
 import project_thumbnail_04 from '../assets/images/services/events.png';
 

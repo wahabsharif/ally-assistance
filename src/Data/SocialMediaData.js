@@ -1,7 +1,7 @@
 export const socialMediaData = [
     {
-        href: 'https://www.facebook.com/gfx.partner',
-        icon: 'fab fa-phone',
+        href: 'tel:441215824316',
+        icon: 'fa fa-phone',
     },
     // {
     //     href: 'https://twitter.com/gfxpartner',

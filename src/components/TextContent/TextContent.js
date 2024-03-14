@@ -1,5 +1,5 @@
 import React from 'react';
-import blogimage from '../../assets/images/blog_content_img.jpg';
+import blogimage from '../../assets/images/about-inner.jpg';
 import TextContentHeader from './TextContentHeader';
 import CallToAction from '../Misc/CallToAction';
 import TextContentInner from './TextContentInner';

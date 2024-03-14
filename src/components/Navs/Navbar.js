@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import logo from '../../assets/images/ally-assistance-landscape-logo.png';
 import navigationmenuimage from '../../assets/images/navigation_menu_image.png';
 import { NavLink } from 'react-router-dom';
-// import NavSocials from './NavSocials';
+import NavSocials from './NavSocials';
 import $ from 'jquery';
 import { navItems } from '../../Data/NavItems';
 
@@ -168,7 +168,7 @@ function Navbar() {
                                     ))}
                                 </ul>
                             </div>
-                            {/* <NavSocials /> */}
+                            <NavSocials />
                         </div>
                     </div>
                 </nav>
